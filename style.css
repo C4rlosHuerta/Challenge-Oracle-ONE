@@ -1,0 +1,96 @@
+h1{
+
+    display: inline;
+
+}
+
+
+#logo{
+
+    margin: 1em 40px ;
+    display: block;
+
+}
+
+body{
+
+    background-color: #E5E5E5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.textos{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.textos__textarea{
+
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40em;
+    height: 35em;
+    background-color: #E5E5E5;
+    border: 3px solid #062153;
+    border-radius: 50px;
+
+}
+
+#sinTexto {
+
+    display: inline-block;
+
+}
+
+#textoEncriptado{
+
+    display: none;
+}
+
+p{
+
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.botones{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.botones li{
+
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+}
+
+.botones img{
+
+    margin: 0  auto;
+    padding: 0; 
+    height: 3em;
+    border-radius:10px;
+    border: none;    
+
+}
+
+#copiar{
+
+    display: none;
+
+}

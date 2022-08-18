@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Encriptador de Carlos</title>
+        <link rel="stylesheet" href="reset.css">     
+        <link rel = "stylesheet" href ="style.css">
+       
+
+    </head>
+    
+    <body>
+
+        <head>
+
+            <img id="logo" src = "imagenes/Vector.png">
+            
+        </head>
+
+        <div class="textos">
+ 
+            <textarea class ="textos__textarea" id="textoAEncriptar" placeholder="escribe el texto aquí"></textarea>
+            <textarea class ="textos__textarea" id="textoEncriptado" readonly></textarea>
+            <img id="sinTexto" src="imagenes/Muñeco.png">
+
+        </div>
+
+        <p> 	
+        
+            &#9888 Solo letras minúsculas y sin ascentos
+        
+        </p>
+
+        <div class="botones">
+            <ul>
+                <li><button id="encriptar"><img src="imagenes/encriptar.png"></button></li>
+                <li><button id="desencriptar"><img src="imagenes/Desencriptar.png"></button></li>
+                <li><button id="copiar"><img src="imagenes/copiar.png"></button></li>
+            </ul>
+        </div>
+
+        <script src="encriptador.js"></script>
+
+    </body>
+
+
+
+</html>
